@@ -1,6 +1,7 @@
 # Node.js Blog API
 
 A simple RESTful API built with Node.js, Express, TypeScript, and MongoDB (Mongoose) for managing blog posts with user authentication.
+Live link - https://node-blog-jddq.onrender.com/
 
 ## Table of Contents
 
@@ -9,15 +10,6 @@ A simple RESTful API built with Node.js, Express, TypeScript, and MongoDB (Mongo
 3.  [Prerequisites](#prerequisites)
 4.  [Setup and Installation](#setup-and-installation)
 5.  [Environment Variables](#environment-variables)
-6.  [Running the Project](#running-the-project)
-7.  [API Documentation](#api-documentation)
-    *   [Base URL](#base-url)
-    *   [Authentication](#authentication)
-    *   [Auth Endpoints](#auth-endpoints)
-    *   [Post Endpoints](#post-endpoints)
-8.  [Postman Collection](#postman-collection)
-9.  [Live API](#live-api)
-10. [License](#license)
 
 ## Features
 

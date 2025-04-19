@@ -16,7 +16,6 @@ router.use(authenticateToken); // Apply auth middleware to all subsequent routes
 
 router.post('/', validate(createPostSchema), postController.createPost);
 router.patch('/:id', validate(updatePostSchema), postController.updatePost); // Use PATCH for partial updates
-router.put('/:id', validate(updatePostSchema), postController.updatePost); // Or PUT for full replacement (often used interchangeably)
 router.delete('/:id', validate(postIdParamSchema), postController.deletePost); // Validate ID format
 
 export default router;

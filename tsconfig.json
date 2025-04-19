@@ -1,0 +1,21 @@
+// tsconfig.json
+{
+  "compilerOptions": {
+    "target": "es6", // Or higher
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    // "noImplicitAny": true, // Recommended, but might require more typing initially
+     "baseUrl": "./src", // Allows cleaner imports like 'models/User'
+     "paths": {
+       "@/*": ["*"] // Example path alias if needed
+     }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"] // Exclude test files
+}
